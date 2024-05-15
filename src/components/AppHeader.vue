@@ -29,7 +29,7 @@
           >
             <span class="close-icon">&#215;</span>
           </li>
-          <li><a :href="baseURL">Home</a></li>
+          <li><a href="/">Home</a></li>
           <li>
             <a href="https://medium.com/@giuliopiepoli.dev" target="_blank"
               >Blog</a
@@ -55,7 +55,6 @@ export default {
     return {
       isMenuOpen: false,
       isResponsive: false,
-      baseURL: import.meta.env.BASE_URL,
     };
   },
   methods: {
