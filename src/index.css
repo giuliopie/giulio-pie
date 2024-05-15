@@ -1,0 +1,26 @@
+/* ./src/index.css */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-heading: #fb8500;
+  --color-caption: #fd9e02;
+  --color-text: #fd9e02;
+  --color-border: #fb8500;
+  --color-icon: #fb8500;
+  --color-social-icon: #fd9e02;
+
+  --background-color-main: #126782;
+  --background-color-secondary: #023047;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.logo-title {
+  font-size: 2.5rem;
+}
