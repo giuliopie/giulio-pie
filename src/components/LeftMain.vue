@@ -51,8 +51,8 @@ export default defineComponent({
       <h3>
         Passionate about cloud computing, I am excited about creating and
         improving cloud architectures. I started my career as a Full-Stack
-        Developer in web applications and am currently a Senior Application
-        Engineer at Mendix.
+        Developer on web applications following a move to Mendix as a Senior
+        Application Engineer.
       </h3>
     </div>
     <div class="wrapper"></div>
