@@ -1,9 +1,5 @@
-<!-- Main.vue -->
 <script lang="ts">
-import {
-  defineComponent,
-  // ref, onMounted, onBeforeUnmount
-} from "vue";
+import { defineComponent } from "vue";
 import LeftMain from "./LeftMain.vue";
 import RightMain from "./RightMain.vue";
 
@@ -45,15 +41,14 @@ export default defineComponent({
 </template>
 
 <style scoped>
-/* Stili specifici per il main */
 main {
   display: flex;
   justify-content: center;
-  /* min-height: 100vh; */
+  background-color: var(--background-color-main);
 }
 
 .main-container {
   display: flex;
-  flex-direction: row; /* Disposizione orizzontale di default */
+  flex-direction: row;
 }
 </style>

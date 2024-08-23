@@ -1,4 +1,3 @@
-<!-- RightMain.vue -->
 <script lang="ts">
 import { defineComponent } from "vue";
 import WelcomeItem from "./WelcomeItem.vue";
@@ -57,11 +56,8 @@ export default defineComponent({
 </template>
 
 <style scoped>
-/* Stili specifici per la colonna sinistra */
 .right-main {
   width: 50%;
-  background-color: var(--background-color-main);
-  /* background-color: #126782; */
   min-height: 100vh;
   padding: 20px;
   display: flex;
@@ -70,7 +66,6 @@ export default defineComponent({
   padding: 0px 60px;
 }
 
-/* Media query per dispositivi mobili */
 @media (max-width: 768px) {
   .right-main {
     width: 100%;

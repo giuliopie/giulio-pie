@@ -1,4 +1,3 @@
-<!-- RightMain.vue -->
 <script lang="ts">
 import { defineComponent } from "vue";
 import WelcomeItem from "./WelcomeItem.vue";

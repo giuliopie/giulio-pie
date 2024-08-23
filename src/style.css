@@ -12,7 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --color-heading: red; /* Definizione della variabile --color-heading */
+  --color-heading: red;
 }
 
 a {

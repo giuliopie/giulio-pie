@@ -109,16 +109,15 @@ li:hover {
 
 .logo-container {
   display: flex;
-  align-items: center; /* Centra verticalmente all'interno del container flessibile */
+  align-items: center;
 }
 
 .logo-title {
-  margin-left: 10px; /* Aggiunge un margine a sinistra per separare il titolo dal logo */
+  margin-left: 10px;
 }
 
-/* Stile per l'icona burger */
 .menu-button {
-  display: none; /* Nasconde l'icona di default */
+  display: none;
   background: none;
   border: none;
   cursor: pointer;
@@ -145,28 +144,24 @@ li:hover {
   transform: translateY(-8px) rotate(-45deg);
 }
 
-/* Stile per il menu principale quando è aperto */
 ul.open {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* Stile per l'icona "x" per chiudere il menu su dispositivi mobili */
 .close-icon-container {
-  margin-left: auto; /* Sposta l'icona a destra */
+  margin-left: auto;
 }
 
 .close-icon {
   color: var(--color-icon);
-  font-size: 16px; /* Dimensione dell'icona */
-  line-height: 1; /* Altezza della riga */
+  font-size: 16px;
+  line-height: 1;
   cursor: pointer;
 }
 
-/* Media query per dispositivi mobili */
 @media (max-width: 768px) {
-  /* Mostra l'icona burger solo su dispositivi mobili */
   .menu-button {
     display: block;
   }
@@ -174,12 +169,10 @@ ul.open {
     display: none;
   }
 
-  /* Nasconde il menu principale su dispositivi mobili */
   ul {
     display: none;
   }
 
-  /* Mostra il menu principale quando è aperto su dispositivi mobili */
   ul.open {
     display: flex;
   }

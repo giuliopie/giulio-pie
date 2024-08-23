@@ -1,4 +1,3 @@
-<!-- LeftMain.vue -->
 <script lang="ts">
 import { defineComponent } from "vue";
 import SocialNetworkIcon from "./icons/IconSocialNetwork.vue";
@@ -44,7 +43,6 @@ export default defineComponent({
     />
 
     <div class="wrapper"></div>
-    <!-- Contenuto della colonna sinistra -->
     <div class="greetings">
       <h1 class="orange">Giulio Piepoli</h1>
       <h2>Senior Application Engineer @ Mendix</h2>
@@ -96,7 +94,6 @@ export default defineComponent({
 <style scoped>
 .left-main {
   width: 50%;
-  background-color: var(--background-color-main);
   min-height: 100vh;
   padding: 20px;
   display: flex;
